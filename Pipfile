@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 peewee = "*"
 fastapi = "*"
+trio = "*"
 
 [dev-packages]
 
