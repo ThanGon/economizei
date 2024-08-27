@@ -1,4 +1,4 @@
-from playhouse.pool import PooledPostgresqlExtDatabase
+from playhouse.db_url import connect
+import os
 
-
-ECONOMIZEICONTEXTDB = PooledPostgresqlExtDatabase()
+ECONOMIZEICONTEXTDB = connect(os.environ.get("CONNECTIONURL"))

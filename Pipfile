@@ -7,8 +7,10 @@ name = "pypi"
 peewee = "*"
 fastapi = "*"
 trio = "*"
+psycopg2 = "*"
 
 [dev-packages]
+pgcli = "*"
 
 [requires]
 python_version = "3.11"

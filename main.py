@@ -1,5 +1,5 @@
-from .data.dbcontext.dbcontext import ECONOMIZEICONTEXTDB
-from .data.user import User
+from data.dbcontext.dbcontext import ECONOMIZEICONTEXTDB
+from data.user import User
 
 ECONOMIZEICONTEXTDB.connect()
 
