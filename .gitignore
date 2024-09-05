@@ -1,1 +1,5 @@
 .venv
+data\[deprecated\]
+password.txt
+__pycache__
+*.pyc
